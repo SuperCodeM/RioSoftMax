@@ -46,7 +46,12 @@ section article a
     display: inline-block;
 }
 /*aside{padding: 1%;}*/
+/*aside img {
+    margin: 0px;
+}
+*/
 aside img {
+    width: 100%;
     margin: 0px;
 }
 footer
