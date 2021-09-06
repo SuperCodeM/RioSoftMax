@@ -1,0 +1,57 @@
+body
+{
+   background-color: black;
+   font-family: 'Open Sans', sans-serif;
+}
+div { background-color: white; width: 90%;margin-left: 5%;margin-top: -2%;}
+header{
+    background-color: slategray;
+}
+header article
+{
+    width: 50%;
+    margin-left: 45%;
+    padding-top: 1%;
+    }
+    header p{
+        width: 50%;
+    margin-left: 45%;
+    }
+header iframe
+{
+    width: 40%;
+    margin-left: 2%;
+    margin-top: -25%;
+    height: 270px;
+}
+div img
+{
+    margin-left: 85%;
+    margin-top: -15%;
+}
+div h1
+{
+    padding-top: 3%;
+}
+section
+{
+    background-color: tomato;
+    padding: 1%;
+}
+section article a
+{
+    padding-left: 5%;
+    padding-right: 15%;
+    width: 10px;
+    display: inline-block;
+}
+/*aside{padding: 1%;}*/
+aside img {
+    margin: 0px;
+}
+footer
+{
+    text-align: center;
+    border-style: outset;
+}
+/*footer h4{border-style:outset;}*/
