@@ -1,62 +1,48 @@
 body
-{
-   background-color: black;
-   font-family: 'Open Sans', sans-serif;
-}
-div { background-color: white; width: 90%;margin-left: 5%;margin-top: -2%;}
-header{
-    background-color: slategray;
-}
+  {/*Color de Fondo a la Pagina + Fuente del Texto*/
+    background-color: black; font-family: 'Open Sans', sans-serif;
+  }
+div 
+  { /*Color de Fondo del Div, Ancho y Alineación del Mismo*/
+   background-color: white; width: 90%;margin-left: 5%;margin-top: -2%;
+  }
+header
+  {/*Color de Fondo al Header*/
+   background-color: slategray;
+  }
 header article
-{
-    width: 50%;
-    margin-left: 45%;
-    padding-top: 1%;
-    }
-    header p{
-        width: 50%;
-    margin-left: 45%;
-    }
+  {/*Color de Fondo al Los Parrafos y al video + Alineación*/
+    width: 50%;margin-left: 45%;padding-top: 1%;
+  }
+header p
+  {/*Ancho y Alineación de Parrafo*/
+    width: 50%;margin-left: 45%;
+  }
 header iframe
-{
-    width: 40%;
-    margin-left: 2%;
-    margin-top: -25%;
-    height: 270px;
-}
+  {/*Dimensiones y Alineación de Video en Iframe*/
+    width: 40%;margin-left: 2%;margin-top: -25%;height: 270px;
+  }
 div img
-{
-    margin-left: 85%;
-    margin-top: -15%;
-}
+  {/*Alineación de Icono Mozila en la parte superior de la pagina*/
+    margin-left: 85%;margin-top: -15%;
+  }
 div h1
-{
+  {/*Alineación del Titulo de la Página*/
     padding-top: 3%;
-}
+  }
 section
-{
-    background-color: tomato;
-    padding: 1%;
-}
+  {/*Color de fondo del Section y Alineación*/
+    background-color: tomato;padding: 1%;
+  }
 section article a
-{
-    padding-left: 5%;
-    padding-right: 15%;
-    width: 10px;
-    display: inline-block;
-}
-/*aside{padding: 1%;}*/
-/*aside img {
-    margin: 0px;
-}
-*/
-aside img {
-    width: 100%;
-    margin: 0px;
-}
+  {/*Ancho y alineación del los elementos Img con enlace del section*/
+    padding-left: 5%;padding-right: 15%;width: 10px;display: inline-block;
+  }
+aside img 
+  {/*Ancho y Alineación de la imagen del Panda*/
+    width: 100%;margin: 0px;
+  }
 footer
-{
-    text-align: center;
-    border-style: outset;
-}
-/*footer h4{border-style:outset;}*/
+  {/*alineación del texto y bordes del Pie de Página*/
+    text-align: center;border-style: outset;
+  }
